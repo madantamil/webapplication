@@ -26,7 +26,7 @@ public class LibertyWebPage {
 	  @BeforeClass
 	  public static void createAndStartService() throws IOException {
 	    service = new ChromeDriverService.Builder()
-	        .usingDriverExecutable(new File("src/main/resources/chromedriver"))
+	        .usingDriverExecutable(new File("src/main/resources/chromedriver.exe"))
 	        .usingAnyFreePort()
 	        .build();
 	    service.start();
