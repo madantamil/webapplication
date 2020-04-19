@@ -12,7 +12,8 @@ on:
 jobs:
   build:
 
-    runs-on: [windows]
+    runs-on: [macos]
+    
 
     steps:
     - uses: actions/checkout@v2
