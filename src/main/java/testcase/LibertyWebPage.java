@@ -17,6 +17,7 @@ public class LibertyWebPage {
 	public void execute() {
 
 	System.out.println("web page building in progress");
+	System.out.println("email checking");
 
 	}
 
