@@ -16,7 +16,11 @@ public class LibertyWebPage {
 	@Test
 	public void execute() {
 
-	System.out.println("web page building in progress");
+		System.setProperty("webdriver.ie.driver", "IEDriverServer.exe");
+		driver = new InternetExplorerDriver();
+		driver.get("https://www.facebook.com/");
+		driver.manage().window().maximize();
+		driver.close();
 
 	}
 
