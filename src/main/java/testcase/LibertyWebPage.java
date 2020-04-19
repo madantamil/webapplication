@@ -14,7 +14,8 @@ public class LibertyWebPage {
 	        driver = new ChromeDriver();        
 	        driver.get("https://google.com");
 	        String title = driver.getTitle();
-	        System.out.println(title);      
+	        System.out.println(title);    
+	        System.out.println("successfully");
 	        driver.quit();      
 	    }
 		}
