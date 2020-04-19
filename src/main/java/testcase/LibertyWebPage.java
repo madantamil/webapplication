@@ -16,7 +16,7 @@ public class LibertyWebPage {
 	@Test
 	public void execute() {
 
-	System.out.println("web page buildong in progress");
+	System.out.println("web page building in progress");
 
 	}
 
