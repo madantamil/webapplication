@@ -10,7 +10,7 @@ public class LibertyWebPage {
 	 @Test
 	    public void testBrowser() {
 	        WebDriver driver;
-	        WebDriverManager.chromedriver().setup();
+	     System.setProperty("webdriver.chrome.driver", "./chromedriver");
 	        driver = new ChromeDriver();        
 	        driver.get("https://google.com");
 	        String title = driver.getTitle();
