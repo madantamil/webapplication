@@ -16,7 +16,7 @@ public class LibertyWebPage {
 
 	@Test
 	public void execute() {
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/src/test/java/chromedriver");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/chromedriver");
 		//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
 	WebDriver	driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
