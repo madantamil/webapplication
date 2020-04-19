@@ -5,9 +5,11 @@
     <classes>
       <class name="testcase.LibertyWebPage">
         <methods>
+          <include name="quitDriver"/>
           <include name="testGoogleSearch"/>
           <include name="createAndStopService"/>
           <include name="createAndStartService"/>
+          <include name="createDriver"/>
         </methods>
       </class> <!-- testcase.LibertyWebPage -->
     </classes>
