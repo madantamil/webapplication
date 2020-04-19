@@ -10,7 +10,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class Flipkart {
+public class LibertyWebPage {
 	public RemoteWebDriver driver;
 
 	@Test
