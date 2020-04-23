@@ -2,22 +2,22 @@ package testcase;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LibertyWebPage {
-	 @Test
-	    public void testBrowser() {
-	        WebDriver driver;
-	     System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
-	        driver = new ChromeDriver();        
-	        driver.get("https://google.com");
-	        String title = driver.getTitle();
-	        System.out.println(title);    
-	        System.out.println("successfully");
-	        driver.quit();      
-	    }
+	public RemoteWebDriver driver;
+
+	@Test
+	public void setUp() {
+		
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
+		driver.get("https://www.google.com");
+		driver.manage().window().maximize();
+	}
 		}
 
 
