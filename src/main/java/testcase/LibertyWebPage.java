@@ -15,7 +15,7 @@ public class LibertyWebPage {
 		
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
-		driver.get("https://www.google.com");
+		driver.get("http.google.com");
 		driver.manage().window().maximize();
 	}
 		}
