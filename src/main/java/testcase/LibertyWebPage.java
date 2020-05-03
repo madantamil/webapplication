@@ -17,7 +17,7 @@ public class LibertyWebPage {
 		driver=new ChromeDriver();
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
-		 System.out.println("Success - pipeline 1 multi pipeline - job 1");
+		 System.out.println("Success - pipeline 1 multi pipeline - job 1 - WEBAPPLICATION REPO");
 		System.out.println("LibertyWebPage - MadanTamil credential");
 	}
 		}
