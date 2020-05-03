@@ -20,7 +20,6 @@ public class LibertyWebPage {
 		 System.out.println("Success - pipeline 1 multi pipeline - job 1 - WEBAPPLICATION REPO");
 		System.out.println("LibertyWebPage - MadanTamil credential");
 		
-		//
 	}
 		}
 
